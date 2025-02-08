@@ -1,11 +1,13 @@
 :root {
-    --primary-color: #433E0E;
-    --secondary-color: #A7A284;
-    --tertiary-color: #7C9082;
-    --bg-color: #EDEEC0;
-    --text-color: #433E0E;
-    --hover-color: #D0C88E;
-    --font-weight: 500; 
+    --primary-color: #4A4E69;
+    --secondary-color: #4A4E69;
+    --tertiary-color: #4A4E69;
+    --bg-color: #C9ADA7;
+    --text-color: #22223B;
+    --hover-color: #aa857d;
+    --font-weight: 500;
+
+
 }
 
 body {
@@ -41,6 +43,7 @@ a {
 
 a:hover {
     text-decoration: underline;
+    color: #F2E9E4;
 }
 
 /* Nav Bar */
@@ -67,7 +70,7 @@ nav ul li {
 
 nav ul li a {
     /* color: var(--bg-color); */
-    color: #FFFF;
+    color: #F2E9E4;
     font-weight: 500;
 }
 
@@ -129,7 +132,7 @@ section h2 {
 
 .skill-bubble {
     background: var(--primary-color);
-    color: var(--bg-color);
+    color: #F2E9E4;
     padding: 10px 20px;
     border-radius: 20px;
     font-size: 1rem;
